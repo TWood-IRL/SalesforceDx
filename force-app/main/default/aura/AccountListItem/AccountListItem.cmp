@@ -1,3 +1,4 @@
 <aura:component>
-
-</aura:component>	
+  <aura:attribute name="account" type="Account"/>
+  <li><a>{!v.account.Name}</a></li>
+</aura:component>
